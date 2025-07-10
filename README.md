@@ -43,8 +43,8 @@ Model Evaluation:
 
 - Confusion Matrix Insights: The model correctly identified 27 out of 32 patients with heart disease (True Positives) and 24 out of 29 patients without heart disease (True Negatives). The model made 5 False Negative predictions, which is the most critical metric to monitor and improve upon in a medical diagnostic context.
 
-- Application & Conclusion
-This logistic regression model serves as a reliable and interpretable tool for identifying individuals at high risk for heart disease.
+Application & Conclusion
+- This logistic regression model serves as a reliable and interpretable tool for identifying individuals at high risk for heart disease.
 
 - Clinical Decision Support: The model can be used in a clinical setting to assist healthcare professionals by providing a data-driven probability of disease, helping to prioritize patients for further, more invasive testing.
 
