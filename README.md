@@ -37,11 +37,11 @@
 
 :herb: Model Evaluation: 	
 
-- AUC Score: The model demonstrated excellent discriminative ability with an Area Under the ROC Curve (AUC) of 0.92.
+- AUC Score: The model demonstrated excellent discriminative ability with an Area Under the ROC Curve (AUC) of 0.97.
 
-- Classification Report: The model showed a strong and balanced performance for predicting the "Has Heart Disease" class, with a Precision of 0.84, a Recall of 0.84, and an F1-Score of 0.84.
+- Classification Report: The model showed a strong and balanced performance for predicting the "Has Heart Disease" class, with a Precision of 0.84, a Recall of 0.93, and an F1-Score of 0.88.
 
-- Confusion Matrix Insights: The model correctly identified 27 out of 32 patients with heart disease (True Positives) and 24 out of 29 patients without heart disease (True Negatives). The model made 5 False Negative predictions, which is the most critical metric to monitor and improve upon in a medical diagnostic context.
+- Confusion Matrix Insights: The model correctly identified 26 out of 31 patients with heart disease (True Positives) and 28 out of 30 patients without heart disease (True Negatives). The model made 2 False Negative predictions, which is the most critical metric to monitor and improve upon in a medical diagnostic context.
 
 :bulb: Application & Conclusion 
 - This logistic regression model serves as a reliable and interpretable tool for identifying individuals at high risk for heart disease.
