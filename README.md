@@ -43,6 +43,8 @@
 
 - Confusion Matrix Insights: The model correctly identified 26 out of 31 patients with heart disease (True Positives) and 28 out of 30 patients without heart disease (True Negatives). The model made 2 False Negative predictions, which is the most critical metric to monitor and improve upon in a medical diagnostic context.
 
+- Recall (93%): This is arguably the most important metric for this project. Recall answers the question: "Of all the patients who actually have heart disease, what percentage did the model correctly identify?". The model's high recall of 93% is highlighted in the project conclusion as a key strength because it means the model is very effective at its most critical task: minimizing missed diagnoses (False Negatives)
+
 :bulb: Application & Conclusion 
 - This logistic regression model serves as a reliable and interpretable tool for identifying individuals at high risk for heart disease.
 
