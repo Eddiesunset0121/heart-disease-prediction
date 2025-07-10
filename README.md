@@ -20,7 +20,7 @@
 :herb: Exploratory Data Analysis & Feature Insights: 
  - Outlier Investigation: Outlier analysis was performed using the IQR method and boxplots. The outliers identified in features like trestbps (resting blood pressure) and chol (cholesterol) were retained, as they were determined to represent legitimate, albeit extreme, clinical measurements crucial for an accurate model rather than data entry errors.
 
-:herb: Key Categorical Predictors: A detailed analysis using count plots revealed several strong predictors for heart disease: 
+:herb: Key Categorical Predictors: Analysis using count plots revealed several strong predictors for heart disease: 
 
 - ST Slope (slope): Patients with a flat (1) or downsloping (2) ST segment during exercise have a significantly higher incidence of heart disease.
 
