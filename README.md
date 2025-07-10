@@ -14,13 +14,13 @@ Key Skills & Tools :star2:
 
 - Core Competencies: Exploratory Data Analysis (EDA), Outlier Analysis, Predictive Modeling, Model Performance Evaluation.
 
-Analysis & Key Findings
+Analysis & Key Findings :potted_plant:	
  - The analysis involved a comprehensive EDA to understand the relationships between variables, followed by the development and evaluation of a predictive logistic regression model.
 
-Exploratory Data Analysis & Feature Insights:
+Exploratory Data Analysis & Feature Insights: :potted_plant:	
  - Outlier Investigation: Outlier analysis was performed using the IQR method and boxplots. The outliers identified in features like trestbps (resting blood pressure) and chol (cholesterol) were retained, as they were determined to represent legitimate, albeit extreme, clinical measurements crucial for an accurate model rather than data entry errors.
 
-Key Categorical Predictors: A detailed analysis using count plots revealed several strong predictors for heart disease:
+Key Categorical Predictors: A detailed analysis using count plots revealed several strong predictors for heart disease: :potted_plant:	
 
 - ST Slope (slope): Patients with a flat (1) or downsloping (2) ST segment during exercise have a significantly higher incidence of heart disease.
 
@@ -30,12 +30,12 @@ Key Categorical Predictors: A detailed analysis using count plots revealed sever
 
 - Thalassemia Type (thal): A "fixed defect" or "reversible defect" in blood flow is strongly associated with a positive diagnosis.
 
-Predictive Model Development & Performance:
+Predictive Model Development & Performance: :potted_plant:	
  - Preprocessing Pipeline: A scikit-learn Pipeline was constructed to streamline the workflow. Numerical features were standardized using StandardScaler, and categorical features were transformed using OneHotEncoder to prepare the data for the model.
 
  - Logistic Regression Model: A logistic regression model was trained on the preprocessed data, achieving an overall accuracy of 84% on the unseen test set.
 
-Model Evaluation:
+Model Evaluation: :potted_plant:	
 
 - AUC Score: The model demonstrated excellent discriminative ability with an Area Under the ROC Curve (AUC) of 0.92.
 
