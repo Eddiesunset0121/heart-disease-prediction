@@ -1,6 +1,6 @@
 # Project 3. Heart Disease  Prediction: A Logistic Regression Analysis
 
-Project Objective 
+:large_blue_diamond: Project Objective 
  - This project analyzes the UCI Heart Disease dataset to identify the key factors that influence the presence of heart disease. The goal is to build an accurate and interpretable classification model that can predict a person's likelihood of having heart disease based on their clinical and demographic attributes.
 
 :star2: Key Skills & Tools 
