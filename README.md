@@ -53,29 +53,42 @@ Application & Conclusion
 
 
 graph TD
-    subgraph "Phase 1: Exploration & Cleaning"
-        A[Load & Inspect Data] --> B[Check Data Quality & Clean]
-        B --> C[Analyze & Visualize Outliers]
-    end
 
-    subgraph "Phase 2: Analysis & Insights"
-        C --> D[Analyze Feature Relationships with Heatmap]
-        D --> E[Visualize Categorical Impact on Target Variable]
-    end
+  %% Define Nodes
+  subgraph "Phase 1: Exploration & Cleaning"
+    A[Load & Inspect Data]
+    B[Check Data Quality & Clean]
+    C[Analyze & Visualize Outliers]
+  end
 
-    subgraph "Phase 3: Model Preparation"
-        E --> F[Split Data into Training & Testing Sets]
-        F --> G[Build Preprocessing Pipeline for Scaling & Encoding]
-    end
+  subgraph "Phase 2: Analysis & Insights"
+    D[Analyze Feature Relationships with Heatmap]
+    E[Visualize Categorical Impact on Target Variable]
+  end
 
-    subgraph "Phase 4: Modeling & Evaluation"
-        G --> H[Train Logistic Regression Model]
-        H --> I{Evaluate Performance}
-        I --> J[Confusion Matrix]
-        I --> K[ROC/AUC Curve]
-        I --> L[Classification Report]
-    end
+  subgraph "Phase 3: Model Preparation"
+    F[Split Data into Training & Testing Sets]
+    G[Build Preprocessing Pipeline for Scaling & Encoding]
+  end
 
-    subgraph "Phase 5: Conclusion"
-        L --> M[Interpret Results & Summarize Findings]
-    end
+  subgraph "Phase 4: Modeling & Evaluation"
+    H[Train Logistic Regression Model]
+    I{Evaluate Performance}
+    J[Confusion Matrix]
+    K[ROC/AUC Curve]
+    L[Classification Report]
+  end
+
+  subgraph "Phase 5: Conclusion"
+    M[Interpret Results & Summarize Findings]
+  end
+
+  %% Link Nodes
+  A --> B --> C
+  C --> D --> E
+  E --> F --> G
+  G --> H --> I
+  I --> J
+  I --> K
+  I --> L
+  L --> M
